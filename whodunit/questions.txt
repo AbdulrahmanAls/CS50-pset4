@@ -1,0 +1,25 @@
+1. Standards Information Base Integer type .
+
+2. It's a nice way to now the range of your data (how many byte ).
+
+3.  1 , 4 , 4 , 2 . 
+
+4.  the first two bytes in BMP is 0x4d42 in hexadecimal.
+
+5.  bfSize is the size of the whole bmp file, which includes the headerfiles and size of info, 
+    while biSize is the total size of image include pixels and padding.
+    
+6.  the bitmap is a top-down
+
+7.  biBitCount.
+
+8.  if the computer has error can't open the file 
+    or can't create the file because there is no space.
+
+9.  each time will read the element one-time . 
+
+10. padding = 3 .
+
+11. when you want to change the offset of the file pointer.
+
+12. SEEK_CUR – It moves file pointer position to given location.
